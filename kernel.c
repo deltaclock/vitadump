@@ -374,7 +374,8 @@ int module_start(SceSize argc, const void *args)
 	decrypt_self("vs0:app/NPXS10101/eboot.bin", "ux0:dump/out/vs0-/app/NPXS10101_eboot.bin", 0, 1, 1);
 	decrypt_self("vs0:app/NPXS10103/ds4_pairing.self", "ux0:dump/out/vs0-/app/NPXS10103_ds4_pairing.self", 0, 1, 1);
 	decrypt_self("vs0:app/NPXS10104/eboot.bin", "ux0:dump/out/vs0-/app/NPXS10104_eboot.bin", 0, 1, 1);
-	
+	//Welcome park dump?
+	decrypt_self("pd0:app/NPXS10007/eboot.bin", "ux0:dump/out/pd0-/app/NPXS10007_eboot.bin", 0, 1, 1);
 	//Plugins and VSH
 	
 	decrypt_self("vs0:data/external/webcore/jx_web_filtering.suprx", "ux0:dump/out/vs0-/data/external/webcore/jx_web_filtering.suprx", 0, 1, 1);
